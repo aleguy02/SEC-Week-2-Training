@@ -20,3 +20,6 @@ const storeLength = localStorage.length
 const myLocalData = JSON.parse(localStorage.getItem("myLocalStore"))
 
 console.log(storeLength)
+
+localStorage.removeItem("myLocalStore")
+localStorage.clear()
